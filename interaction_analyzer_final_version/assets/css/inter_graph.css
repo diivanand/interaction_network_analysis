@@ -1,0 +1,39 @@
+path.link {
+	fill: none;
+	stroke: #666;
+	/*stroke-width: 1.5px;*/
+}
+
+circle {
+	/*fill: #ccc;*/
+	stroke: #333;
+	stroke-width: 1.5px;
+}
+
+text {
+	font: 10px sans-serif;
+	pointer-events: none;
+}
+
+text.shadow {
+	stroke: #fff;
+	stroke-width: 3px;
+	stroke-opacity: .8;
+}
+#render_txt{
+	font-size:large;
+}
+
+.node.active{
+	stroke: #FFA500;
+	stroke-width: 3.0px;
+}
+
+.node.active.main{
+	stroke: #00FF00;
+}
+
+.link.active{
+	stroke: #3778C7;
+}
+
